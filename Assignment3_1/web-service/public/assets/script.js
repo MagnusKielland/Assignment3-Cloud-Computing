@@ -173,3 +173,8 @@ window.onload = () => {
     fetchFiles();
     fetchVideos();
 };
+
+function refreshFiles() {
+    fetchFiles(); // Refresh audio and image files
+    fetchVideos(); // Refresh video files
+}
